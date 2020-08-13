@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>CodeLock</title>
+  
+ </head>
+ <body>
+ <link rel="stylesheet" type="text/css" href="/style.css">	
+	<nav role="navigation">
+	  <ul>
+		<li><a href="/">Main</a></li>
+		<li><a >Settings</a>
+		  <ul class="dropdown">
+			<li><a href="/settings_sta">STA</a></li>
+			<li><a href="/settings_ap">AP</a></li>
+		  </ul>
+		</li>
+	  </ul>
+	</nav> 
+  <div class="center">
+	<p class='one-p'>CodeLock</p>
+	<input type='submit' class='buttons' value='Open' onclick='sendButton(1)'>
+	<input type='submit' class='buttons' value='Close' onclick='sendButton(2)'>
+	<p class='two-p' id='status'></p>
+  </div>
+  <div id="footer">
+   <div>
+    &copy; CodeLock 2020
+   </div>
+ <script type="text/javascript" src="/requests.js"></script>
+ </body>
+</html>

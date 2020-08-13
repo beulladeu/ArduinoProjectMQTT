@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>CodeLock</title>
+  <link rel="stylesheet" type="text/css" href="/style.css">	
+ </head>
+ <body>
+	<nav role="navigation">
+	  <ul>
+		<li><a href="/">Main</a></li>
+		<li><a >Settings</a>
+		  <ul class="dropdown">
+			<li><a href="/settings_sta">STA</a></li>
+			<li><a href="/settings_ap">AP</a></li>
+		  </ul>
+		</li>
+	  </ul>
+	</nav> 
+  <div class="center-wifi">
+		<p class='one-p'>Connect to Access Point</p>
+		<p><input class="auth-form-input" id="login" type="text" placeholder="Login"/></p>
+		<p><input class="auth-form-input" id="password" type="password" placeholder="Password"/></p>
+		<p><input class="buttons" type="submit" value="Save" onclick='saveButton("/settings_ap")'/></p>
+		<p class="error-message"></p>
+  </div>
+  <div id="footer">
+   <div>
+    &copy; CodeLock 2020
+   </div>
+ <script type="text/javascript" src="/requests.js"></script>
+ </body>
+</html>
