@@ -1,2 +1,2 @@
 # CodeLockArduino
-mqtt connection, arduino, web interface
+esp8266, mqtt connection, web interface
